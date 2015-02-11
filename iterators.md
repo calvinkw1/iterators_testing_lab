@@ -61,4 +61,4 @@ Returns a new array with all of the keys that exist inside the hash.
 Deletes the specified object from the hash and returns that object. Returns nil if the specified object does not exist in hash. Optional code block is also returned if object does not appear in the hash, which can be used as an error message that you specify.
 
 ####delete_if:
-Used to delete items from the array through a given condition that evaluates the item to be true. Each deletion affects the array immediately instead of when the iteration is complete.
+Used to delete items from the hash through a given condition that evaluates the item to be true. Each deletion affects the hash immediately instead of when the iteration is complete.
